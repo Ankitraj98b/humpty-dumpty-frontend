@@ -26,7 +26,7 @@ const ADMIN_PASSWORD = "HumptyAdmin@2024";
 const fmt = (n) => `₹${Number(n).toFixed(0)}`;
 
 const MENU_ITEMS = [
-  { _id:"1", name:"Masala Dosa", description:"Crispy rice crepe with spiced potato, sambar & chutneys", price:89, category:"breakfast", emoji:"🫓", badge:"Chef's Pick", isVeg:true },
+  { _id:"1", name:"Masala Dosa", description:"Crispy rice crepe with spiced potato, sambar & chutneys", price:89, category:"breakfast", image:"https://ibb.co/bjt3WbZw", badge:"Chef's Pick", isVeg:true },
   { _id:"2", name:"Poha Deluxe", description:"Flattened rice with mustard, curry leaves, peanuts & coriander", price:65, category:"breakfast", emoji:"🍚", isVeg:true },
   { _id:"3", name:"Idli Sambar", description:"Steamed rice cakes with hot sambar & 3 chutneys", price:70, category:"breakfast", emoji:"🍥", isVeg:true },
   { _id:"4", name:"Chole Bhature", description:"Fluffy bhatura with spicy chole & pickled onions", price:120, category:"mains", emoji:"🫓", badge:"Bestseller", isVeg:true },
